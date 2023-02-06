@@ -1,4 +1,4 @@
-( FOR EACH SPACE )
+( FOR EACH SPACE)
 check if AI can win:
     yas - make move
     no - check if AI can block opponent:
