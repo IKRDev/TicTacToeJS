@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Tic Tac Toe grid -->
+        <table>
+            <tr class="tictacrow row1 oddrow" id="row1">
+                <td class="tictaccell cell1 oddcell" id="cell1-1"><button class="tictacbtn" id="btn1-10"></button></td>
+                <td class="tictaccell cell2 evencell" id="cell1-2"><button class="tictacbtn" id="btn1-21"></button></td>
+                <td class="tictaccell cell3 oddcell" id="cell1-3"><button class="tictacbtn" id="btn1-32"></button></td>
+            </tr>
+            <tr class="tictacrow row2 evenrow" id="row2">
+                <td class="tictaccell cell1 oddcell" id="cell2-1"><button class="tictacbtn" id="btn2-13"></button></td>
+                <td class="tictaccell cell2 evencell" id="cell2-2"><button class="tictacbtn" id="btn2-24"></button></td>
+                <td class="tictaccell cell3 oddcell" id="cell2-3"><button class="tictacbtn" id="btn2-35"></button></td>
+            </tr>
+            <tr class="tictacrow row3 oddrow" id="row3">
+                <td class="tictaccell cell1 oddcell" id="cell3-1"><button class="tictacbtn" id="btn3-16"></button></td>
+                <td class="tictaccell cell2 evencell" id="cell3-2"><button class="tictacbtn" id="btn3-27"></button></td>
+                <td class="tictaccell cell3 oddcell" id="cell3-3"><button class="tictacbtn" id="btn3-38"></button></td>
+            </tr>
+        </table>
+
+        <!-- Win Stats -->
+        <div id="win-div">
+            <h3 class="win-display" id="x-wins">X Wins: 0</h3>
+            <h3 class="win-display" id="draws">Draws: 0</h3>
+            <h3 class="win-display" id="o-wins">O Wins: 0</h3>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

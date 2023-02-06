@@ -1,0 +1,38 @@
+:root {
+    /* root variables */
+    --cell-size: 30px;
+}
+
+.tictacbtn {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: none;
+    background-color: white;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: var(--cell-size);
+    height: var(--cell-size);
+  }
+
+.tictaccell {
+    padding: 0px;
+    margin: 0px;
+}
+
+#win-div {
+    display: flex;
+}
+
+.win-display {
+    padding: 10px;
+    border-left: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#o-wins {
+    border-right: 2px solid black;
+}
