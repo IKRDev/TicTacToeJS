@@ -1,2 +1,2 @@
 # TicTacToeJS
-Tic Tac Toe / Roshambo in HTML &amp; JS
+Tic Tac Toe in HTML &amp; JS
