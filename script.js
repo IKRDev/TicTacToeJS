@@ -1,3 +1,10 @@
+/*
+RoshamboJS - setyaa (IKRDev)
+Last Modified: 09/06/2024
+*/
+
+// guh spaghetti code :(
+
 let player = "X" // current player
 let gameRunning = true // is there a game currently running?
 let clicked // any element that has been clicked
